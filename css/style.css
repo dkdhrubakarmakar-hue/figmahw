@@ -1,0 +1,142 @@
+:root {
+	--black: #2d2d2d;
+	--white: #fff;
+	--green: #009379;
+	--red: #ff6250;
+	--pink: #f3afa8;
+	--grey: #f3f3f3;
+	--yellow: #f7d684;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* common css */
+
+
+
+/* Navbar css start */
+nav{
+    padding: 20px 0;
+    background: var(--grey);
+}
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navLogo{
+    width: 60px;
+}
+nav .navLogo img{
+    width: 100%;
+}
+
+
+nav .navMenu ul li{
+    display: inline-block;
+}
+
+nav .navMenu ul li a{
+    color: var(--black);
+    font-size: 20px;
+    padding: 0 20px;
+
+}
+
+/* Navbar css end */
+
+
+/* Banner css start  */
+#banner .row{
+    padding: 58px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerText{
+    width: 60%;
+}
+
+.bannerImg{
+    width: 40%;
+}
+
+.bannerText h4{
+font-weight: 600;
+font-size: 20px;
+line-height: 150%;
+color: var(--black);
+}
+
+.bannerText h1{
+font-weight: 600;
+font-size: 68px;
+color: var(--black);
+margin: 24px 0;
+}
+
+.bannerText p{
+    font-weight: 400;
+font-size: 17px;
+line-height: 159%;
+color: var(--black);
+margin-bottom: 48px;
+}
+
+.bannerText a{
+    padding: 24px 64px;
+    background: var(--black);
+    display: inline-block;
+    font-weight: 600;
+font-size: 20px;
+line-height: 150%;
+text-align: center;
+color: var(--white);
+}
+/* Banner css end */
+
+/* Brand css start */
+#brand .brandImg{
+    padding: 50px 0;
+}
+#brand .brandImg .row{
+    justify-content: space-between;
+}
+/* Brand css end  */
+
+#latestwork .row{
+    gap: 24px;
+}
+.workcard{
+    width: 33.33px;
+    outline: 1px solid red;
+}
+.workcard{
+    max-width: 100px;
+}
